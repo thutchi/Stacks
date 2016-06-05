@@ -17,7 +17,7 @@ void display(node * top_node);
 
 int main(int argc, char ** argv)
 {
-	node * top_node = NULL; //creates the top node.
+	node * top_node = NULL; //creates the top node...
 	push(1, &top_node);
 	push(5, &top_node);
 	push(55, &top_node);
